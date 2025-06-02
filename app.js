@@ -3,7 +3,7 @@ const btn = document.querySelector("#btn");
 const output = document.querySelector(".output");
 
 btn.addEventListener("click", function() {
-    if(textArea === "") {
+    if(textArea.value === "") {
         output.innerHTML = "Please enter a some text"
     }else{
         const text = textArea.value;
